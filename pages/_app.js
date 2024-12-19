@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
-        <title>Fioxen - Directory & Listings React NextJs Template</title>
+        <title>FreelanceConnect</title>
         <link
           rel="shortcut icon"
           href="assets/images/favicon.ico"

@@ -7,14 +7,14 @@ const Header = ({ header }) => {
   const getHeader = () => {
     switch (header) {
       case 1:
-        return <Header1 />;
+        return <Header3 />;
       case 2:
         return <Header2 />;
       case 3:
         return <Header3 />;
 
       default:
-        return <Header1 />;
+        return <Header3 />;
     }
   };
   return <Fragment>{getHeader()}</Fragment>;

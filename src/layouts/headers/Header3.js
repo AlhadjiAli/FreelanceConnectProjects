@@ -103,51 +103,12 @@ const Header3 = () => {
                   </div>
                   <nav className="main-menu">
                     <ul>
-                      <li className="menu-item has-children">
-                        <Link href="/">
-                          <a>Home</a>
-                        </Link>
-                        <ul className="sub-menu">
-                          <Home />
-                        </ul>
-                        <span className="dd-trigger">
-                          <i className="ti-arrow-down" />
-                        </span>
-                      </li>
+                      <Home />
                       <About />
-                      <li className="menu-item has-children">
-                        <a href="#">Listings</a>
-                        <ul className="sub-menu">
-                          <Listing />
-                        </ul>
-                        <span className="dd-trigger">
-                          <i className="ti-arrow-down" />
-                        </span>
-                      </li>
-                      <li className="menu-item has-children">
-                        <a href="#">Pages</a>
-                        <ul className="sub-menu">
-                          <Pages />
-                        </ul>
-                        <span className="dd-trigger">
-                          <i className="ti-arrow-down" />
-                        </span>
-                      </li>
-                      <li className="menu-item has-children">
-                        <a href="#">Article</a>
-                        <ul className="sub-menu">
-                          <Blog />
-                        </ul>
-                        <span className="dd-trigger">
-                          <i className="ti-arrow-down" />
-                        </span>
-                      </li>
+                      <Listing />
+                      <Pages />
+                      <Blog />                     
                       <Contact />
-                      <li className="nav-btn">
-                        <Link href="/add-listing">
-                          <a className="main-btn icon-btn">Add Listing</a>
-                        </Link>
-                      </li>
                     </ul>
                   </nav>
                 </div>
@@ -155,6 +116,11 @@ const Header3 = () => {
               <div className="col-lg-3 col-5">
                 <div className="header-right-nav">
                   <ul className="d-flex align-items-center">
+                  <li className="hero-nav-btn">
+                      <Link href="/add-listing">
+                        <a className="main-btn icon-btn">Join Us</a>
+                      </Link>
+                    </li>
                     <li className="user-btn">
                       <Link href="/">
                         <a className="icon">
@@ -162,16 +128,9 @@ const Header3 = () => {
                         </a>
                       </Link>
                     </li>
-                    <li className="hero-nav-btn">
-                      <Link href="/add-listing">
-                        <a className="main-btn icon-btn">Add Listing</a>
-                      </Link>
-                    </li>
                     <li className="nav-toggle-btn">
                       <div className="navbar-toggler">
-                        <span />
-                        <span />
-                        <span />
+                      <span />
                       </div>
                     </li>
                   </ul>

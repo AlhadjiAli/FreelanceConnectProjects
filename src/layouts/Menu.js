@@ -4,13 +4,7 @@ import React, { Fragment } from "react";
 export const Home = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/">Home One</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/index-2">Home Two</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/index-3">Home Three</Link>
+      <Link href="/">Home</Link>
     </li>
   </Fragment>
 );
@@ -24,9 +18,9 @@ export const About = () => (
 export const Listing = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/listing-list">Listing List</Link>
+      <Link href="/listing-list">Values</Link>
     </li>
-    <li className="menu-item">
+    {/* <li className="menu-item">
       <Link href="/listing-grid">Listing Grid</Link>
     </li>
     <li className="menu-item">
@@ -37,15 +31,15 @@ export const Listing = () => (
     </li>
     <li className="menu-item">
       <Link href="/listing-details-2">Listing Details Two</Link>
-    </li>
+    </li> */}
   </Fragment>
 );
 export const Pages = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/add-listing">Add Listing</Link>
+      <Link href="/add-listing">Services</Link>
     </li>
-    <li>
+    {/* <li>
       <Link href="/products">Our Products</Link>
     </li>
     <li>
@@ -56,17 +50,17 @@ export const Pages = () => (
     </li>
     <li className="menu-item">
       <Link href="/pricing">Pricing</Link>
-    </li>
+    </li> */}
   </Fragment>
 );
 export const Blog = () => (
   <Fragment>
-    <li className="menu-item">
-      <Link href="/blog">Our Blog</Link>
-    </li>
-    <li className="menu-item">
+    {/* <li className="menu-item">
+      <Link href="/blog">Contact</Link>
+    </li> */}
+    {/* <li className="menu-item">
       <Link href="/blog-details">Blog details</Link>
-    </li>
+    </li> */}
   </Fragment>
 );
 export const Contact = () => (
