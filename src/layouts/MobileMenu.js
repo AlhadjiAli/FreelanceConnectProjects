@@ -190,7 +190,7 @@ const MobileMenu = () => {
                     </li>
                     <li className="hero-nav-btn">
                       <Link href="/add-listing">
-                        <a className="main-btn icon-btn">Add Listing</a>
+                        <a className="main-btn icon-btn">JOIN US</a>
                       </Link>
                     </li>
                     <li className="nav-toggle-btn">

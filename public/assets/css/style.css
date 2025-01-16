@@ -196,7 +196,7 @@ textarea.form_control {
 }
 .section-title span.sub-title:after, .section-title span.sub-title:before {
   display: inline-block;
-  content: "..";
+  /* content: ".."; */
 }
 .section-title span.sub-title:after {
   margin-left: 7px;

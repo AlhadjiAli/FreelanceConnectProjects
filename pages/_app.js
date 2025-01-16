@@ -2,6 +2,8 @@ import Head from "next/head";
 import React, { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/components/PreLoader";
 import "../styles/globals.css";
+import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const MyApp = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);

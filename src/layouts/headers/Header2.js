@@ -14,7 +14,7 @@ const Header2 = () => {
                   <Link href="/">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo-2.png"
+                        src="assets/images/logo/mylogo.svg"
                         alt="Brand Logo"
                       />
                     </a>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Slider from "react-slick";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const Counter = dynamic(() => import("../src/components/Counter"), {
   ssr: false,

@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import TestimoinalSlider from "../src/components/Slider/TestimonialSlider";
 import Layout from "../src/layouts/Layout";
 import { ListingSlider2 } from "../src/sliderProps";
+import Image from "next/image";
 
 const Index2 = () => {
   return (

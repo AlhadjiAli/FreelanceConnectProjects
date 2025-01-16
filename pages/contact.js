@@ -13,37 +13,39 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-10">
               <div className="section-title section-title-left mb-50">
-                <span className="sub-title">Contact With Us</span>
-                <h2>How Can We Help You</h2>
+                <span className="sub-title">CONTACT</span>
+                <h2>Nous contacter</h2>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4">
               <div className="contact-information-list">
-                <div className="information-item mb-30 wow fadeInUp">
-                  <div className="icon">
-                    <i className="ti-location-pin" />
-                  </div>
-                  <div className="info">
-                    <h5>Address</h5>
-                    <p>46 suvastu arcade 3rd Floor palace road, London.</p>
-                  </div>
-                </div>
-                <div className="information-item mb-30 wow fadeInUp">
+              <div className="information-item mb-30 wow fadeInUp">
                   <div className="icon">
                     <i className="ti-mobile" />
                   </div>
                   <div className="info">
-                    <h5>Phone</h5>
+                    <h5>Appelez-nous</h5>
                     <p>
-                      <a href="tel:445555552580">44 (555) 555 2580</a>
+                      <a href="tel:+237671515042">(+237) 671-515-042</a>
                     </p>
                     <p>
-                      <a href="tel:445555552580">31 (555) 222 2560</a>
+                      {/* <a href="tel:+237620224288">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 620-224-288</a> */}
                     </p>
                   </div>
                 </div>
+              <div className="information-item mb-30 wow fadeInUp">
+                  <div className="icon">
+                    <i className="ti-time" />
+                  </div>
+                  <div className="info">
+                    <h5>Heures ouvrables</h5>
+                    <p>Lundi - Samédi</p>
+                    <p>9h00 - 17h00</p>
+                  </div>
+                </div>
+                
                 <div className="information-item mb-30 wow fadeInUp">
                   <div className="icon">
                     <i className="ti-email" />
@@ -51,11 +53,21 @@ const Contact = () => {
                   <div className="info">
                     <h5>Email</h5>
                     <p>
-                      <a href="mailto:info@fioxen20.com">info@fioxen20.com</a>
+                      <a href="mailto:info@freelanceconnect.pro">info@freelanceconnect.cm</a>
                     </p>
                     <p>
-                      <a href="mailto:info@fioxen20.com">info@fioxen22.com</a>
+                      <a href="mailto:jobs@freelanceconnect.cm">jobs@freelanceconnect.cm</a>
                     </p>
+                  </div>
+                </div>
+                <div className="information-item mb-30 wow fadeInUp">
+                  <div className="icon">
+                    <i className="ti-location-pin" />
+                  </div>
+                  <div className="info">
+                    <h5>Adresse</h5>
+                    <p>Deido, entre Total Bonateki,
+                    et Pharmacie Akwa Nord, Douala</p>
                   </div>
                 </div>
               </div>
@@ -70,30 +82,8 @@ const Contact = () => {
                           <input
                             type="text"
                             className="form_control"
-                            placeholder="First Name"
+                            placeholder="Votre Nom"
                             name="name"
-                            required=""
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form_group">
-                          <input
-                            type="text"
-                            className="form_control"
-                            placeholder="Last Name"
-                            name="name"
-                            required=""
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form_group">
-                          <input
-                            type="text"
-                            className="form_control"
-                            placeholder="Phone"
-                            name="phone"
                             required=""
                           />
                         </div>
@@ -114,7 +104,7 @@ const Contact = () => {
                           <input
                             type="text"
                             className="form_control"
-                            placeholder="Subject"
+                            placeholder="Sujet"
                             name="subject"
                             required=""
                           />
@@ -124,14 +114,14 @@ const Contact = () => {
                         <div className="form_group">
                           <textarea
                             className="form_control"
-                            placeholder="Your Message"
+                            placeholder="Votre Message"
                             name="message"
                           />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form_group">
-                          <button className="main-btn">Send Message</button>
+                          <button className="main-btn">Envoyer le message</button>
                         </div>
                       </div>
                     </div>
@@ -146,7 +136,7 @@ const Contact = () => {
       {/*====== Start Map section ======*/}
       <section className="contact-page-map">
         <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+          <iframe src="https://maps.app.goo.gl/9NUu54EktbYhHHaQ6" />
         </div>
       </section>
       {/*====== End Map section ======*/}

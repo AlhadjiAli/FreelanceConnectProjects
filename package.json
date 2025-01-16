@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.1",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^2.2.0",
+    "framer-motion": "^11.15.0",
     "isotope-layout": "^3.0.6",
     "next": "12.1.0",
     "nouislider-react": "^3.4.1",
-    "react": "17.0.2",
+    "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-countup": "^6.1.1",
-    "react-dom": "17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^5.4.0",
     "react-slick": "^0.28.1",
     "react-visibility-sensor": "^5.1.1",
     "wowjs": "^1.1.3"

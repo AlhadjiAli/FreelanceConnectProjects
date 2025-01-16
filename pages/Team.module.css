@@ -1,0 +1,100 @@
+/* TeamSection.module.css */
+.teamSection {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .subtitle {
+    color: #ff0000;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .membersGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .memberCard {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+    margin-bottom: 1.5rem;
+  }
+  
+  .memberImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialLinks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .socialLinks a {
+    color: white;
+    transition: transform 0.2s ease;
+  }
+  
+  .socialLinks a:hover {
+    transform: scale(1.2);
+  }
+  
+  .imageWrapper:hover .socialLinks {
+    opacity: 1;
+  }
+  
+  .imageWrapper:hover .memberImage {
+    transform: scale(1.1);
+  }
+  
+  .memberName {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .memberRole {
+    color: #666;
+    font-size: 0.875rem;
+  }
+  
+  @media (max-width: 768px) {
+    .membersGrid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }

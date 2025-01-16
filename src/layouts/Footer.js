@@ -42,26 +42,21 @@ const Footer = () => {
                     <h4>Follow Us</h4>
                     <ul className="social-link">
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=100092621946704">
                           <i className="ti-facebook"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://x.com/freelancehub237">
                           <i className="ti-twitter-alt"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
-                          <i className="ti-pinterest"></i>
+                        <a href="https://www.linkedin.com/company/freelanceconnect/posts/?feedView=all">
+                          <i className="ti-linkedin"></i>
                         </a>
                       </li>
-                      <li>
-                        <a href="#">
-                          <i className="ti-instagram"></i>
-                        </a>
-                      </li>
-                    </ul>
+                   </ul>
                   </div>
                 </div>
               </div>
@@ -104,25 +99,19 @@ const Footer = () => {
                   className="widget categories-widget mb-40 wow fadeInUp"
                   data-wow-delay="30ms"
                 >
-                  <h4 className="widget-title">Categories</h4>
+                  <h4 className="widget-title">Les Liens Importants</h4>
                   <ul className="categories-link">
                     <li>
-                      <a href="#">Restaurant</a>
+                      <a href="#">Nos Services</a>
                     </li>
                     <li>
-                      <a href="#">Museum</a>
+                      <a href="#">Nos Valeurs</a>
                     </li>
                     <li>
-                      <a href="#">Party Center</a>
+                      <a href="#">Nos Partenaires</a>
                     </li>
                     <li>
-                      <a href="#">Game Field</a>
-                    </li>
-                    <li>
-                      <a href="#">Shopping</a>
-                    </li>
-                    <li>
-                      <a href="#">Art & Gallery</a>
+                      <a href="#">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -134,7 +123,8 @@ const Footer = () => {
                 >
                   <h4 className="widget-title">Newsletter</h4>
                   <p>
-                    Caoreet massa torto pon interdum sestibulum suscipit duis.
+                  Abonnez-vous à notre newsletter pour recevoir les
+                   dernières actualités et offres exclusives.
                   </p>
                   <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
@@ -162,7 +152,7 @@ const Footer = () => {
                 <div className="copyright-text">
                   <p>
                     Copyright &copy; 2021. All rights reserved to{" "}
-                    <span>Webtend</span>
+                    <span>FreelanceConnect</span>
                   </p>
                 </div>
               </div>

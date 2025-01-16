@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+import Image from "next/image";
 
 const BlogDetails = () => {
   return (
