@@ -7,7 +7,7 @@ import alhalig from "../public/assets/images/team/alhalig.png";
 import Image from 'next/image';
 import Team from "./team";
 import Teams from "./teams";
-import ClientSection from "../src/components/clients";
+import ClientSection from "../src/components/Clients";
 
    /* public\assets\images\team\alhalig.png */
 
