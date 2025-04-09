@@ -92,7 +92,7 @@ export default class TestimoinalSlider2 extends Component {
           <div className="testimonial-item">
             <div className="testimonial-content">
               <p>
-              L'équipe a fait preuve d'un professionnalisme exemplaire tout au long de notre
+              L&apos;équipe a fait preuve d&apos;un professionnalisme exemplaire tout au long de notre
                projet de refonte de site. Leur accompagnement et leurs conseils ont été précieux.
                 Un grand merci pour ce travail de qualité !{" "}
               </p>
@@ -128,8 +128,8 @@ export default class TestimoinalSlider2 extends Component {
           <div className="testimonial-item">
             <div className="testimonial-content">
               <p>
-                Je suis très satisfaite du site internet qu'ils ont créé pour moi. 
-                Non seulement le design est conforme à mes attentes, mais j'ai également 
+                Je suis très satisfaite du site internet qu&apos;ils ont créé pour moi. 
+                Non seulement le design est conforme à mes attentes, mais j&apos;ai également 
                 reçu une formation pour gérer mon référencement. Une équipe vraiment compétente !{" "}
               </p>
               <div className="author-info d-flex">
