@@ -16,7 +16,7 @@ const Team = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="section-title text-center mb-50 wow fadeInUp">
-                <span className="sub-title">Membre d'Equipe </span>
+                <span className="sub-title">Membre d&apos;Equipe </span>
                 <h2>Notre Equipe Interne</h2>
               </div>
             </div>
