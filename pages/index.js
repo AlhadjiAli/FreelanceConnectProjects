@@ -51,7 +51,7 @@ const Index3 = () => {
               <div className="col-lg-12">
                 <div className="hero-content text-center">
                   <h1 className="wow fadeInUp" data-wow-delay=".30s">
-                  Réunir les meilleurs freelances d'Afrique pour réussir ensemble.
+                  Réunir les meilleurs freelances d&lsquo;Afrique pour réussir ensemble.
                   </h1><br/><br/><br/>
                   <h3 className="wow fadeInDown" data-wow-delay=".50s">
                   Rejoignez notre communauté de professionnels qualifiés et améliorez votre jeu en freelance.
@@ -95,8 +95,8 @@ const Index3 = () => {
                   <div className="content">
                     <h4>Opportunités de mise en réseau</h4>
                     <p>
-                    Rejoignez une communauté d'entrepreneurs, freelances
-                     et innovateurs unis pour réussir grâce à l'entraide.
+                    Rejoignez une communauté d&lsquo;entrepreneurs, freelances
+                     et innovateurs unis pour réussir grâce à l&lsquo;entraide.
                     </p>
                   </div>
                 </div>
@@ -124,9 +124,9 @@ const Index3 = () => {
                     <i className="fas fa-briefcase" />
                   </div>
                   <div className="content">
-                    <h4>Opportunités d'emploi</h4>
+                    <h4>Opportunités d&lsquo;emploi</h4>
                     <p>
-                    Bénéficiez de notre réseau d'entreprises pour accéder à des 
+                    Bénéficiez de notre réseau d&lsquo;entreprises pour accéder à des 
                     opportunités de freelance correspondant à vos compétences.<br/>&nbsp;
                     </p>
                   </div>
@@ -168,7 +168,7 @@ const Index3 = () => {
                   <div className="content">
                     <h4>Assurance</h4>
                     <p>
-                    Bénéficiez d’une assurance adaptée pour freelances, 
+                    Bénéficiez d&lsquo;une assurance adaptée pour freelances, 
                     incluant santé, et protégez votre avenir en toute sérénité.<br/>&nbsp;
                     </p>
                   </div>
@@ -226,7 +226,7 @@ const Index3 = () => {
                   <div className="content">
                     <h4>Intégrité</h4>
                     <p>
-                    Nous valorisons l'intégrité, l'honnêteté et la transparence, en 
+                    Nous valorisons l&lsquo;intégrité, l&lsquo;honnêteté et la transparence, en 
                     encourageant le respect et des normes éthiques élevées au sein de la communauté.<br/>&nbsp;
                     </p>
                   </div>
@@ -240,8 +240,8 @@ const Index3 = () => {
                   <div className="content">
                     <h4>Apprentissage tout au long de la vie</h4>
                     <p>
-                    L'apprentissage est un voyage continu ; nous encourageons le développement 
-                    professionnel et l'adaptation aux tendances pour réussir en tant qu'indépendant.
+                    L&lsquo;apprentissage est un voyage continu ; nous encourageons le développement 
+                    professionnel et l&lsquo;adaptation aux tendances pour réussir en tant qu&lsquo;indépendant.
                     </p>
                   </div>
                 </div>
