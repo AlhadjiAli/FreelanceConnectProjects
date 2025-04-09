@@ -95,7 +95,7 @@ const Teams = () => {
   return (
     <section className={styles.teamSection}>
       <div className={styles.header}>
-        <span className={styles.subtitle}>Membre d'Equipe</span>
+        <span className={styles.subtitle}>Membre d&apos;sEquipe</span>
         <h2 className={styles.title}>Notre Equipe Interne</h2>
       </div>
       <div className={styles.membersGrid}>
